@@ -23,10 +23,12 @@ const reiniciarContador = () => {
 
       <Boton 
       text= 'Sumar'
+      cssClass={true}
       onClick={onClick}/>
 
       <Boton 
       text= 'Reiniciar'
+      cssClass={false}
       onClick={reiniciarContador}/>
 
       <Contador 
