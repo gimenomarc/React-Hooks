@@ -15,6 +15,12 @@ const reiniciarContador = () => {
   setNumClics(0)
 }
 
+const restar = () => {
+  if ( numClics > 0 ) {
+    setNumClics(numClics - 1)
+  }
+}
+
   return (
 
     <div className="App">
@@ -25,6 +31,11 @@ const reiniciarContador = () => {
       text= 'Sumar'
       cssClass={true}
       onClick={onClick}/>
+
+      <Boton 
+      text= 'Restar'
+      cssClass={true}
+      onClick={restar}/>
 
       <Boton 
       text= 'Reiniciar'
