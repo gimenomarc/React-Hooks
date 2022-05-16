@@ -8,7 +8,7 @@ function App() {
   const [numClics, setNumClics] = useState(0);
 
 const onClick = () => {
-  setNumClics(setNumClics + 1)
+  setNumClics(numClics + 1)
 }
 
 const reiniciarContador = () => {
@@ -16,7 +16,7 @@ const reiniciarContador = () => {
 }
 
   return (
-    
+
     <div className="App">
 
       <h1>Hello World</h1>
